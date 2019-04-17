@@ -1,0 +1,577 @@
+{
+    "things": [
+      {
+        "address": "seed",
+        "type": 0,
+        "version": "0.1",
+        "registry": "1",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [
+          {
+            "order": 1,
+            "address": "item-item",
+            "type": 0,
+            "title": "item",
+            "format": {
+              "group": true,
+              "title": true,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          }
+        ],
+        "links": []
+      },
+      {
+        "address": "item-item",
+        "version": "0.1",
+        "type": 0,
+        "registry": "25",
+        "tradable": true,
+        "spawner": true,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [
+          {
+            "order": 1,
+            "address": "itemid-id",
+            "type": 0,
+            "title": "id",
+            "format": {
+              "group": false,
+              "title": true,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 2,
+            "address": "tag-title",
+            "type": 1,
+            "title": "title",
+            "format": {
+              "group": false,
+              "title": true,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 3,
+            "address": "text-description",
+            "type": 1,
+            "title": "description",
+            "format": {
+              "group": true,
+              "title": true,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 4,
+            "address": "image-image",
+            "type": 3,
+            "title": "image",
+            "format": {
+              "group": false,
+              "title": true,
+              "display": true,
+              "textAlign": null,
+              "fontSize": null,
+              "regex": null
+            }
+          },
+          {
+            "order": 5,
+            "address": "price-price",
+            "type": 0,
+            "title": "price",
+            "format": {
+              "group": false,
+              "title": true,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 6,
+            "address": "location-location",
+            "type": 0,
+            "title": "location",
+            "format": {
+              "group": false,
+              "title": true,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          }
+        ],
+        "links": []
+      },
+      {
+        "address": "itemid-id",
+        "type": 0,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [
+          {
+            "order": 1,
+            "address": "tag-id",
+            "type": 1,
+            "title": "item id",
+            "format": {
+              "group": false,
+              "title": true,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": [
+                {
+                  "order": 1,
+                  "type": "f",
+                  "pattern": "([A-Z]{2})",
+                  "template": null
+                }
+              ]
+            }
+          },
+          {
+            "order": 2,
+            "address": "tag-type",
+            "type": 1,
+            "title": "item id type",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": false,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          }
+        ],
+        "links": []
+      },
+      {
+        "address": "tag-id",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "ABCDEFG",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "tag-type",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "barcode",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "tag-title",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "Dark Roast Coffee, 1/2 lb.",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "text-description",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "this coffee bag is from a remote location\\n\\nfind out more at...",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "image-image",
+        "type": 3,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [],
+        "links": []
+      },
+      {
+        "address": "price-price",
+        "type": 0,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [
+          {
+            "order": 1,
+            "address": "number-amount",
+            "type": 2,
+            "title": "amount",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": [
+                {
+                  "order": 1,
+                  "type": "f",
+                  "pattern": "(\\\\d*)(\\\\.{1})(\\\\d{2})",
+                  "template": null
+                },
+                {
+                  "order": 2,
+                  "type": "fr",
+                  "pattern": "(\\\\d{1,3})(?=(\\\\d{3})+(?!\\\\d)(?=\\\\.))",
+                  "template": "%%,"
+                }
+              ]
+            }
+          },
+          {
+            "order": 2,
+            "address": "token-currency",
+            "type": 0,
+            "title": "currency",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 3,
+            "address": "unit-perunit",
+            "type": 0,
+            "title": "per unit",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          }
+        ],
+        "links": []
+      },
+      {
+        "address": "number-amount",
+        "type": 2,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": 123123123123.45678,
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "unit-perunit",
+        "type": 0,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [
+          {
+            "order": 1,
+            "address": null,
+            "type": 1,
+            "title": "title",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 2,
+            "address": null,
+            "type": 1,
+            "title": "shorthand",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 3,
+            "address": null,
+            "type": 1,
+            "title": "symbol",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          }
+        ],
+        "links": []
+      },
+      {
+        "address": "location-location",
+        "type": 0,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [],
+        "links": []
+      },
+      {
+        "address": "email-email",
+        "type": 0,
+        "version": "0.1",
+        "registry": "28",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [
+          {
+            "order": 1,
+            "address": "tag-to",
+            "type": 1,
+            "title": "to",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 2,
+            "address": "tag-subject",
+            "type": 1,
+            "title": "subject",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 3,
+            "address": "text-body",
+            "type": 1,
+            "title": "body",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          }
+        ],
+        "links": []
+      },
+      {
+        "address": "tag-to",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "info@example.com",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "tag-subject",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "test email",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "text-body",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "Hey! This is a test email.\\n\\nThanks for your time!",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "sms-sms",
+        "type": 0,
+        "version": "0.1",
+        "registry": "30",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": null,
+        "features": [
+          {
+            "order": 1,
+            "address": "number-number",
+            "type": 2,
+            "title": "number",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          },
+          {
+            "order": 2,
+            "address": "text-message",
+            "type": 1,
+            "title": "message",
+            "format": {
+              "group": false,
+              "title": false,
+              "display": true,
+              "textAlign": "l",
+              "fontSize": 12.0,
+              "regex": null
+            }
+          }
+        ],
+        "links": []
+      },
+      {
+        "address": "number-number",
+        "type": 2,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "15555555555",
+        "features": null,
+        "links": []
+      },
+      {
+        "address": "text-message",
+        "type": 1,
+        "version": "0.1",
+        "registry": "",
+        "tradable": false,
+        "spawner": false,
+        "cert": "",
+        "proof": null,
+        "hash": null,
+        "data": "Hey! Just wanted to send a test text message.",
+        "features": null,
+        "links": []
+      }
+    ]
+}
