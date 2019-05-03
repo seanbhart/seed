@@ -1,0 +1,99 @@
+{
+    "address": "item-item",
+    "version": "0.1",
+    "type": 0,
+    "registry": "25",
+    "tradable": true,
+    "spawner": true,
+    "cert": "",
+    "proof": null,
+    "hash": null,
+    "data": null,
+    "features": [
+        {
+            "order": 1,
+            "address": "itemid-id",
+            "type": 0,
+            "title": "id",
+            "format": {
+                "group": false,
+                "title": true,
+                "display": true,
+                "textAlign": "l",
+                "fontSize": 12.0,
+                "regex": null
+            }
+        },
+        {
+            "order": 2,
+            "address": "tag-title",
+            "type": 1,
+            "title": "title",
+            "format": {
+                "group": false,
+                "title": true,
+                "display": true,
+                "textAlign": "l",
+                "fontSize": 12.0,
+                "regex": null
+            }
+        },
+        {
+            "order": 3,
+            "address": "text-description",
+            "type": 1,
+            "title": "description",
+            "format": {
+                "group": true,
+                "title": true,
+                "display": true,
+                "textAlign": "l",
+                "fontSize": 12.0,
+                "regex": null
+            }
+        },
+        {
+            "order": 4,
+            "address": "image-image",
+            "type": 3,
+            "title": "image",
+            "format": {
+                "group": false,
+                "title": true,
+                "display": true,
+                "textAlign": null,
+                "fontSize": null,
+                "regex": null
+            }
+        },
+        {
+            "order": 5,
+            "address": "price-price",
+            "type": 0,
+            "title": "price",
+            "format": {
+                "group": false,
+                "title": true,
+                "display": true,
+                "textAlign": "l",
+                "fontSize": 12.0,
+                "regex": null
+            }
+        },
+        {
+            "order": 6,
+            "address": "location-location",
+            "type": 0,
+            "title": "location",
+            "format": {
+                "group": false,
+                "title": true,
+                "display": true,
+                "textAlign": "l",
+                "fontSize": 12.0,
+                "regex": null
+            }
+        }
+    ],
+    "links": []
+}

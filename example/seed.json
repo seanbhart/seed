@@ -1,0 +1,29 @@
+{
+    "address": "seed",
+    "type": 0,
+    "version": "0.1",
+    "registry": "1",
+    "tradable": false,
+    "spawner": false,
+    "cert": "",
+    "proof": null,
+    "hash": null,
+    "data": null,
+    "features": [
+        {
+            "order": 1,
+            "address": "item-item",
+            "type": 0,
+            "title": "item",
+            "format": {
+                "group": true,
+                "title": true,
+                "display": true,
+                "textAlign": "l",
+                "fontSize": 12.0,
+                "regex": null
+            }
+        }
+    ],
+    "links": []
+}
